@@ -8,6 +8,8 @@
 </svelte:head>
 
 <section>
-	<h1>Hi!</h1>
+	<div class="flex justify-center items-center h-100dvh">
+		<h1>Hi!</h1>
+	</div>
 </section>
 
