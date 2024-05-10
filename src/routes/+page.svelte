@@ -8,11 +8,15 @@ import { Button } from "$lib/components/ui/button";
 </svelte:head>
 
 <section>
-	<div class="flex flex-col justify-center items-center h-100dvh">
-		<h1 class="text-6xl font-bold max-w-[500px] text-center">This is your SaaS Landing Page</h1>
-		<p class="mt-4">Get your application off the ground and running quickly</p>
+	<div class="flex flex-col h-100dvh text-left m-auto">
+		<h1 class="text-6xl font-bold max-w-[500px] ">This is your SaaS Landing Page</h1>
+		<p class="mt-4 text-left">Get your application off the ground and running quickly</p>
 
-		<Button class="mt-8" variant="default">This is a button</Button>
+		<div>
+			<Button class="mt-8" variant="default">Contact Us</Button>
+			<Button class="mt-8 ml-4" variant="outline">Pricing</Button>
+		</div>
+
 	</div>
 </section>
 
